@@ -1,20 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: #391770;
+  color: antiquewhite;
 }
 
 .App-header {
-  background-color: #282c34;
+  padding: 2rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +20,47 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  background-color: #191b20;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about {
+  padding: 2rem;
+}
+
+.about img {
+  float: left;
+}
+
+.bio {
+  width: 75%;
+  padding-left: 3rem;
+  padding-right: 5rem;
+  float: right;
+}
+
+main h2, h3 {
+ padding-bottom: 2rem;
+ margin-top: 2rem;
+}
+
+.projects {
+  clear:both;
+}
+.project-item {
+  margin-top: 1rem;
+}
+
+.project-item p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: pink;
+  padding-bottom: 1rem;
+}
+
+footer {
+  padding-bottom: 2rem;
+  margin-top: 1rem;
 }
